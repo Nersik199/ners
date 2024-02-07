@@ -1,0 +1,90 @@
+.footer{
+	&__social{
+		background-color: $footer-bg;
+		padding: 60px 0;
+	}
+	&__block{
+		display: flex;
+	}
+	&__contact{
+		width: 350px;
+		margin-right: 40px;
+		&:nth-child(4){
+			margin-right: 0;
+		}
+	}
+	
+	&__title{
+		font-size: 16px;
+		letter-spacing: 1px;
+		line-height: 28px;
+		text-transform: uppercase;
+		color: #f7f7f7;
+		font-weight: 700;
+		font-family: "Montserrat", sans-serif;
+		margin-bottom: 40px;
+	}
+	&__desc{
+		font-size: 14px;
+		letter-spacing: 0px;
+		line-height: 24px;
+		color: #f9f9fb;
+		margin-bottom: 5px;
+	}
+	
+	
+	&__icon{
+		margin-right: 6px;
+	}
+	
+	&__text{
+		font-size: 14px;
+		letter-spacing: 0px;
+		line-height: 24px;
+		color: #f9f9fb;
+		margin-bottom: 35px;
+	}
+	
+	
+	&__box{
+		width: 345px;
+		height: 147px;
+		background-color: #3a3c49;
+		position: relative;
+		&::after{
+			content: url("#{$path}img/icon/Nathaliya.png");
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+	}
+	
+	&__box2{
+		width: 361px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	&__box1{
+		width: 100px;
+		height: 98px;
+		background-color: #f9f9fb;
+		margin: 5px;
+	}
+	
+	
+	&__info{
+		background-color: #17191c;
+		padding: 15px 0;
+		p{
+			text-align: center;
+			opacity: 0.400;
+			font-size: 14px;
+			letter-spacing: 1px;
+			line-height: 24px;
+			text-transform: uppercase;
+			color: $color-white;
+			font-weight: 300;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+.signup{
+  margin-top: 250px;
+  margin-bottom: 30px;
+  &__block{
+    display: flex;
+    align-items: center;
+  }
+  &__title{
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #212121;
+    font-weight: 700;
+    font-family: $fw;
+    margin-right: 112px;
+  }
+  &__input{
+    width: 440px;
+    height: 45px;
+    background-color: $color-white;
+    outline: none;
+    border: none;
+    margin-right: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: $color-gray;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+  
+}
+::placeholder{
+  padding-left: 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 300;
+}

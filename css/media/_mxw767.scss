@@ -1,0 +1,162 @@
+.nav{
+	padding-top: 10px;
+	
+	&__link{
+		margin-left: 20px;
+		margin-right: 0;
+	}
+	
+	&__menu{
+		font-size: 14px;
+	}
+	&__social{
+		margin-right: 13px;
+	}
+}
+
+.banner{
+	height: 300px;
+	top: 40px;
+	
+	&__content{
+		height: 300px;
+		width: 100%;
+	}
+	
+	&__block{
+		top: 18%;
+	}
+	
+	&__title {
+		padding-left: 32px;
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	
+	&__desc{
+		font-size: 20px;
+		padding-left: 32px;
+		line-height: 30px;
+	}
+	
+	.container .banner__box{
+		right: -60px;
+		top: 130px;
+	}
+	
+	&__text {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	
+	.owl-carousel .owl-nav button.owl-prev{
+		right: 6px;
+		top: 6px;
+	}
+	
+	.owl-carousel .owl-nav button.owl-next{
+		right: 6px;
+		top: 220px;
+	}
+}
+
+.signup{
+	margin-top: 35px;
+	
+	&__block{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	&__title {
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	
+	&__input{
+		margin-bottom: 14px;
+		margin-right: 0;
+	}
+	
+}
+
+.content {
+	padding: 30px 0;
+	&__box {
+		width: calc(100% / 2 - 11px);
+		margin-right: 10px;
+	}
+	
+	&__item{
+		width: 100%;
+	}
+	
+	&__box1 {
+		width: 100%;
+		margin-top: 20px;
+		height: 550px;
+		margin-bottom: 40px;
+	}
+	
+	&__product {
+		height: 400px;
+		width: 100%;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	
+	&__items{
+		width: 100%;
+	}
+}
+
+.footer {
+	&__social {
+		padding: 20px 0;
+	}
+	
+	&__block {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	&__contact {
+		width: 250px;
+		margin-right: 40px;
+		
+		&:nth-child(2){
+			margin-right: 0;
+		}
+		
+		&:nth-child(4) {
+			margin-right: 0;
+		}
+	}
+	
+	&__box{
+		width: 180px;
+		height: 100px;
+	}
+	
+	&__box2{
+		width: 180px;
+	}
+	
+	&__box1{
+		width: 50px;
+		height: 50px;
+		margin: 2px;
+	}
+	
+	&__info{
+		p{
+			text-align: center;
+			opacity: 0.400;
+			font-size: 14px;
+		}
+	}
+}
